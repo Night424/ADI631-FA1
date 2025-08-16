@@ -1,0 +1,3 @@
+BACKUP DATABASE MedixCareDB
+TO DISK = 'C:\SQLBackups\MedixCareDB_Diff.bak'
+WITH DIFFERENTIAL, INIT;

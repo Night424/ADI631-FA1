@@ -1,0 +1,15 @@
+RESTORE DATABASE MedixCareDB
+FROM DISK = 'C:\SQLBackups\MedixCareDB_Full.bak'
+WITH NORECOVERY;
+
+RESTORE DATABASE MedixCareDB
+FROM DISK = 'C:\SQLBackups\MedixCareDB_Diff.bak'
+WITH NORECOVERY;
+
+RESTORE LOG MedixCareDB
+FROM DISK = 'C:\SQLBackups\MedixCareDB_Log.trn'
+WITH NORECOVERY;
+
+RESTORE LOG MedixCareDB
+FROM DISK = 'C:\SQLBackups\MedixCareDB_Tail.trn'
+WITH RECOVERY;
