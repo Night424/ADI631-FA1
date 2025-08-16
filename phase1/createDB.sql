@@ -1,0 +1,4 @@
+CREATE DATABASE MedixCareDB;
+GO
+USE MedixCareDB;
+GO
