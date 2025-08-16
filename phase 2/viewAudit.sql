@@ -1,0 +1,1 @@
+SELECT * FROM sys.fn_get_audit_file('C:\Users\keane\OneDrive\Documents\School\3rd year\Semester 2\Formative 1\ADI632\*.sqlaudit', DEFAULT, DEFAULT);
