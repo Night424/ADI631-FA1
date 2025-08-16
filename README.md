@@ -21,7 +21,7 @@ As the junior DBA, the tasks were:
 
 ---
 
-## 🔐 Phase 1: Secure Data Access
+## Phase 1: Secure Data Access
 - Demonstrates role-based access control.  
 - Screenshots should show:
   - Successful queries by `DrJames`  
@@ -29,7 +29,7 @@ As the junior DBA, the tasks were:
 
 ---
 
-## 📊 Phase 2: Configure Auditing
+## Phase 2: Configure Auditing
 - Creates a server audit writing to `C:\SQLAudit\`  
 - Tracks:
   - Successful & failed logins  
@@ -41,7 +41,7 @@ As the junior DBA, the tasks were:
 
 ---
 
-## 💾 Phase 3: Backup & Recovery
+## Phase 3: Backup & Recovery
 - Recovery model set to **FULL**  
 - Backup strategy:  
   - Weekly full backup  
@@ -52,7 +52,7 @@ As the junior DBA, the tasks were:
 
 ---
 
-## 📝 Phase 4: Reflection
+## Phase 4: Reflection
 - Discusses the importance of root cause analysis (RCA)  
 - Steps for investigating corruption (e.g., using `DBCC CHECKDB`)  
 - Role of regular backups and auditing in prevention  
